@@ -1,7 +1,7 @@
 # HospitaHealthMonitoringSystemApplication
 Central monitoring application which provides observing health parameters for each patient and remote setting ventilator parameters.
 
-The project will require administrator rights (just in case so your firewall doesn't block the server instances).
+The project will require administrator rights (just in case so your firewall doesn't block the server instances) so a visual studio restart will be required.
 
 Run the default project (HospitalHealthMonitoringSystemClient).
 
