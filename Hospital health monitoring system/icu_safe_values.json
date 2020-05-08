@@ -1,0 +1,12 @@
+{
+    "max_breathing_rate": 20,
+    "min_breathing_rate": 13,
+    "max_breath_duration": 2500,
+    "min_breath_duration": 1500,
+    "max_heart_rate": 115,
+    "min_heart_rate": 45,
+    "max_systolic": 160,
+    "min_systolic": 80,
+    "max_diastolic": 120,
+    "min_diastolic": 40
+}

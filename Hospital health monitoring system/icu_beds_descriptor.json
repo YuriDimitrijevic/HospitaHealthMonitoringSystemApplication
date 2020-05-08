@@ -1,0 +1,93 @@
+[
+    {
+        "bed_id": 1,
+        "VentilatorDevice": {
+            "vent_port": "2020"
+        },
+        "CMD": {
+            "cmd_port": "2021"
+        }
+    },
+    {
+        "bed_id": 2,
+        "VentilatorDevice": {
+            "vent_port": "2022"
+        },
+        "CMD": {
+            "cmd_port": "2023"
+        }
+    },
+    {
+        "bed_id": 3,
+        "VentilatorDevice": {
+            "vent_port": "2024"
+        },
+        "CMD": {
+            "cmd_port": "2025"
+        }
+    },
+    {
+        "bed_id": 4,
+        "VentilatorDevice": {
+            "vent_port": "2026"
+        },
+        "CMD": {
+            "cmd_port": "2027"
+        }
+    },
+    {
+        "bed_id": 5,
+        "VentilatorDevice": {
+            "vent_port": "2028"
+        },
+        "CMD": {
+            "cmd_port": "2029"
+        }
+    },
+    {
+        "bed_id": 6,
+        "VentilatorDevice": {
+            "vent_port": "2030"
+        },
+        "CMD": {
+            "cmd_port": "2031"
+        }
+    },
+    {
+        "bed_id": 7,
+        "VentilatorDevice": {
+            "vent_port": "2032"
+        },
+        "CMD": {
+            "cmd_port": "2033"
+        }
+    },
+    {
+        "bed_id": 8,
+        "VentilatorDevice": {
+            "vent_port": "2034"
+        },
+        "CMD": {
+            "cmd_port": "2035"
+        }
+    },
+    {
+        "bed_id": 9,
+        "VentilatorDevice": {
+            "vent_port": "2036"
+        },
+        "CMD": {
+            "cmd_port": "2037"
+        }
+    },
+    {
+        "bed_id": 10,
+        "VentilatorDevice": {
+            "vent_port": "2038"
+        },
+        "CMD": {
+            "cmd_port": "2039"
+        }
+    }
+
+]
