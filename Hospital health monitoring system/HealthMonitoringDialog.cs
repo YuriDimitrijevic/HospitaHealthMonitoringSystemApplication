@@ -280,7 +280,7 @@ namespace HospitalHealthMonitoringSystem
             SafeValues = JsonConvert.DeserializeObject<SafeValues>(File.ReadAllText(safeValuesPath));
         }
 
-        async void SetBedParameters()
+        void SetBedParameters()
         {
             try
             {
@@ -296,7 +296,7 @@ namespace HospitalHealthMonitoringSystem
 
                         var serializedVentilatorData = Client.Connect(SharedHelper.GetLocalIPAddress(), f.Bed.VentilatorDevice.PortNumber, JsonConvert.SerializeObject(f.Bed.VentilatorDevice));
 
-                        await StartAutoRefreshingData();
+                        Task.Run(() => StartAutoRefreshingData());
 
                         f.Bed.VentilatorDevice = JsonConvert.DeserializeObject<VentilatorDeviceModel>(serializedVentilatorData);
 
@@ -337,6 +337,8 @@ namespace HospitalHealthMonitoringSystem
             bsList.Dispose();
 
             Process.GetProcesses().Where(p => p.ProcessName == nameof(CMDServerDevice) || p.ProcessName == nameof(VentilatorServerDevice)).ToList().ForEach(y => y.Kill());
+
+            _cts.Dispose();
 
             base.Dispose(disposing);
         }

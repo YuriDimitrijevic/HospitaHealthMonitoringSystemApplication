@@ -82,6 +82,7 @@ namespace VentilatorServerDevice
                 _vdm.AirPressure = vd.AirPressure;
                 _vdm.BreathDuration = vd.BreathDuration;
                 _vdm.BreathingRate = vd.BreathingRate;
+                _vdm.PortNumber = vd.PortNumber;
             }
 
             _vdm.BloodOxygenLevel = random.Next(1000, 3000);
