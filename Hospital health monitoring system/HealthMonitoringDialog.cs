@@ -18,6 +18,8 @@ namespace HospitalHealthMonitoringSystem
 {
     public partial class HealthMonitoringDialog : Form
     {
+
+        //Test comment for the test branch
         ToolStripButton btnSetBedParameters;
 
         CancellationTokenSource _cts = new CancellationTokenSource();
