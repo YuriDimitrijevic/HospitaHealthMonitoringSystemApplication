@@ -70,12 +70,12 @@ namespace VentilatorServerDevice
                 server.Stop();
             }
         }
-
+        
         private static void DeserializeDataFromClient(string data)
         {
             var random = new Random();
 
-            if (data != "Empty")
+            if (data != nameof(string.Empty))
             {
                 var vd = JsonConvert.DeserializeObject<VentilatorDeviceModel>(data);
                 _vdm.OxygenPercent = vd.OxygenPercent;
